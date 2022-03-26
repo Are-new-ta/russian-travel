@@ -1,0 +1,33 @@
+.place {
+  display: grid;
+  width: 100%;
+  height: 660px;
+  grid-template-columns: repeat(2, calc(100%-40px) / 2);
+  gap: 0 40px;
+  grid-template-rows: repeat(3, auto);
+  grid-template-areas:
+    "place__title place__website"
+    "place__image place__paragraph"
+    "place__image place__paragraph_span";
+  box-sizing: content-box;
+  margin: 0;
+  padding-top: 80px;
+  border: 2px solid white;
+
+}
+
+.place:first-child {
+  padding-top: 92px;
+}
+
+
+@media screen and (max-width: 425px) {
+  .place {
+    display: flex;
+  font-size: 32px;
+  line-height: 1.09;
+  max-width: 90%;
+      }
+}
+
+/* height: 660px;*/

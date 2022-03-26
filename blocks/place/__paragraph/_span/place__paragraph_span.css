@@ -1,0 +1,6 @@
+.place__paragraph_span {
+  grid-area: place__paragraph_span;
+  margin: 0;
+  padding: 0;
+  height: min-content;
+}
