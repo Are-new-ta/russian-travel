@@ -1,33 +1,69 @@
 .lead__image {
-  bacground-image: url(../../../images/lead-polka.jpg);
-  bacground-repeat: no-repeat;
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
   box-sizing: border-box;
   object-fit: contain;
   width: 984px;
   margin: 64px auto 0;
   padding: 0;
- 
 }
 
 @media screen and (max-width: 425px) {
   .lead__image {
-    width: 320px;
-    height: 200px;
+    max-width: 100%;
+    max-height: 200px;
     margin-top: 40px;
-    margin-left: 0;
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 768px) {
   .lead__image {
-    width: 768px;
-    margin: 56px auto 0;
+    box-sizing: content-box;
+    object-fit: contain;
+    object-position: center top;
+    max-width: 100%;
   }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__image {
-    width: 928px;
+    max-width: 928px;
     margin: 56px auto 0;
   }
 }
+  /*.lead__image {
+  display: flex;
+  position: relative;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  object-fit: contain;
+  width: 984px;
+  margin: 64px auto 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 425px) {
+  .lead__image {
+    max-width: 100%;
+    max-height: 200px;
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .lead__image {
+    box-sizing: content-box;
+    object-fit: contain;
+    object-position: center top;
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .lead__image {
+    max-width: 928px;
+    margin: 56px auto 0;
+  }
+}
+*/

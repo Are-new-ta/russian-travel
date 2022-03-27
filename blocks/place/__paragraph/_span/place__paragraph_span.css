@@ -4,3 +4,26 @@
   padding: 0;
   height: min-content;
 }
+
+@media screen and (max-width: 425px) {
+  .place__paragraph_span {
+    font-size: 16px;
+    line-height: 1.63;
+    max-width: 100%;
+    text-align: start;
+    align-self: center;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .place__paragraph_span {
+    font-size: 16px;
+    line-height: 1.63;
+    max-width: 100%;
+    align-self: flex-start;
+    margin: 0 auto;
+    padding-top: 25px;
+  }
+}
