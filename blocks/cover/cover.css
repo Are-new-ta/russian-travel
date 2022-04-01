@@ -1,4 +1,53 @@
 .cover {
+  display: flex; 
+  flex-direction: column;
+  margin: 90px auto 0;
+  padding: 0;
+  width: 90%;  
+  min-height: 740px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+  .cover {
+    width: 100%;
+    min-height: 200px;
+    margin-top: 66px;
+  }
+}
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .cover {
+    width: 100%;
+    min-height: 480px;
+    margin-top: 66px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    min-height: 480px;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .cover {
+    width: 100%;
+    min-height: 740px;
+  }
+}
+
+
+/*до корректировок после ревьюера+ создала новый элемент ковер бекграунд*/
+/*.cover {
   display: flex;
   position: relative;
   flex-direction: column;
@@ -43,3 +92,4 @@
     height: 480px;
   }
 }
+*/

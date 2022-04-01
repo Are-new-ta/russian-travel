@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   height: min-content;
+ 
 }
 
 @media screen and (max-width: 425px) {
@@ -13,7 +14,8 @@
     text-align: start;
     align-self: center;
     margin: 0 auto;
-    padding-top: 25px;
+    padding: 0;
+   
   }
 }
 
@@ -24,6 +26,7 @@
     max-width: 100%;
     align-self: flex-start;
     margin: 0 auto;
-    padding-top: 25px;
+    padding: 0;
+    
   }
 }
