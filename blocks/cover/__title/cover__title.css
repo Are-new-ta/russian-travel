@@ -40,25 +40,3 @@
   }
 }
 
-/*до корректировок после ревьюера+ создала новый элемент ковер бекграунд*/
-/*.cover__title {
-  position: relative;
-  font-style: normal;
-  font-weight: 900;
-  font-size: 72px;
-  line-height: 1.06;
-  max-width: 560px;
-  max-height: 150px;
-  text-align: center;
-  text-decoration: none;
-  color: #ffffff;
-  margin: 195px auto 0;
-  padding: 0;
-}
-
-@media screen and (max-width: 425px) {
-  .cover__title {
-    font-size: 32px;
-  }
-}
-*/

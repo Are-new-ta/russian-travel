@@ -2,8 +2,7 @@
   grid-area: place__website;
   margin: 0;
   padding: 106px 0 0 0;
-  border: 2px solid wheat;
-  }
+    }
 
 @media screen and (max-width: 425px) {
   .place__website {
@@ -30,4 +29,12 @@
     margin: 0;
     padding-top: 46px;
   }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__website {
+    align-self: flex-end;
+    padding: 0;
+  }
+
 }

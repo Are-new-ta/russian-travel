@@ -7,8 +7,7 @@
   max-height: 460px;
   margin: 0;
   padding: 48px 0 0; /* было padding-top: 48px;*/
-  border: 2px solid green;
-  
+   
 }
 
 @media screen and (max-width: 425px) {
@@ -39,7 +38,11 @@
     max-width: 340px;
     margin-top: 48px;
     padding: 0;
-       
-  }
+     }
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
+  .place__image { 
+    max-width: 440px;  
+       }
+}

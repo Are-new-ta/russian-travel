@@ -7,12 +7,11 @@
   grid-template-rows: repeat(3, 1fr);
   gap: 15px;
   width: 90%;
-  max-height: 670px;
+  /*max-height: 670px;*/
   margin: 90px auto 0;
   padding: 0;
   border: 0;
-  border: 2px solid rebeccapurple;
-}
+ }
 
 @media screen and (max-width: 425px) {
   .photo-grid {
@@ -44,14 +43,15 @@
     }
 }
 
-/*до исправления по замечаниям ревью
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .photo-grid {
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(6, 1fr);
+    min-width: 928px;
+    grid-template-columns: repeat(3, 300px);
+    grid-template-rows: repeat(4, 225px);
     max-height: min-content;
     margin: 88px auto 0;
-    box-sizing: border-box;
-     }
+    }
 }
-}*/
+
+
+

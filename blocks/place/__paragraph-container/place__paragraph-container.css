@@ -1,8 +1,7 @@
 .place__paragraph-container {
   margin: 0 auto;
   padding: 48px 0 0;
-  border: 2px solid green;
-}
+  }
 
 
 .place__paragraph-container .place__paragraph:last-child {
@@ -40,55 +39,14 @@
     }
 }
 
-
-/*
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 1024px) and (max-width: 1280px) {
   .place__paragraph-container { 
-    padding-top: 30px;
-    width: 89%;
-  }
-  .place__paragraph-container .place__paragraph:last-child {
-    padding-top: 20px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .place__paragraph-container { 
-    margin: 0;
-    padding: 0;
-  }
-}*/
-
-/*18.50 пробую сделать новые стили, чтобы было ок
-.place__paragraph-container {
-  margin: 0 auto;
-  padding: 48px 0 0;
-  border: 2px solid green;
-}
-
-
-.place__paragraph-container .place__paragraph:last-child {
-  padding-top: 16px;
-}
-
-@media screen and (max-width: 425px) {
-  .place__paragraph-container { 
-    padding-top: 32px;
-    width: 89%;
+    margin: 0 auto;
+    padding-top: 0px;
+    min-width: 456px;
      }
      .place__paragraph-container .place__paragraph:last-child {
       padding-top: 20px;
     }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .place__paragraph-container { 
-    padding-top: 30px;
-    width: 89%;
-  }
-  .place__paragraph-container .place__paragraph:last-child {
-    padding-top: 20px;
-  }
-}
-
-89%;*/

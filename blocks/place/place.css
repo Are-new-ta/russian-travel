@@ -10,7 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding-top: 80px;
-  border: 2px solid rebeccapurple;
+  
 }
 
 .place:first-child {
@@ -60,108 +60,17 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
   .place {
     max-width: 100%;  
-    padding-top: 80px;
-    gap: 0 32px;
-    
-  }
-
-  .place:first-child {
-    padding-top: 92px;
-  }
-}
-
-
-
-
-
-
-/*01.04 корректировки
-
-.place {
-  display: grid;
-  width: 100%;
-  grid-template-columns: repeat(2, calc(100% - 40px) / 2);
-  gap: 0 40px;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-    "place__title place__website"
-    "place__image place__paragraph"
-    "place__image place__paragraph";
- box-sizing: border-box;
-  margin: 0;
-  padding-top: 80px;
-  border: 2px solid rebeccapurple;
-  }
-
-  .place:first-child {
-    padding-top: 92px;
-  }
-  
-  @media screen and (max-width: 425px) {
-    .place {
-      display: flex;
-      flex-direction: column;
-      max-width: 100%;
-      max-height: min-content;
-      padding-top: 50px;
+    padding-top: 66px;
+    gap: 0 30px;
     }
-    .place:first-child {
-      padding-top: 64px;
-    }
-  }
-  
-  @media screen and (min-width: 425px) and (max-width: 768px) {
-    .place {
-      max-height: min-content;
-      padding-top: 73px;
-    }
-    .place:first-child {
-      padding-top: 88px;
-    }
-  }
-*/
 
-/*до 01,04 докорректировок гридов и введения спен в один параграф*/
-/*.place {
-  display: grid;
-  width: 100%;
-  max-height: 660px;
-  grid-template-columns: repeat(2, calc(100% - 40px) / 2);
-  gap: 0 40px;
-  grid-template-rows: repeat(3, auto);
-  grid-template-areas:
-    "place__title place__website"
-    "place__image place__paragraph"
-    "place__image place__paragraph_span";
-  box-sizing: border-box;
-  margin: 0;
-  padding-top: 80px;
-}
-
-.place:first-child {
-  padding-top: 92px;
-}
-
-@media screen and (max-width: 425px) {
-  .place {
-    display: flex;
-    flex-direction: column;
-    max-width: 100%;
-    max-height: min-content;
-    padding-top: 50px;
-  }
-  .place:first-child {
-    padding-top: 64px;
-  }
-}
-
-@media screen and (min-width: 425px) and (max-width: 768px) {
-  .place {
-    max-height: min-content;
-    padding-top: 73px;
-  }
   .place:first-child {
     padding-top: 88px;
+   
   }
-}*/
+}
+
+
+
+
 
