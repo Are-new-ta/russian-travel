@@ -1,7 +1,7 @@
 .cover {
   display: flex; 
   flex-direction: column;
-  margin: 90px auto 0;
+  /*margin: 90px auto 0; и вместо этого в медиазапросы сделала марджин, а не просто марджин топ*/
   padding: 0;
   width: 90%;  
   min-height: 740px;
@@ -12,7 +12,7 @@
   .cover {
     width: 100%;
     min-height: 200px;
-    margin-top: 65px;
+    margin: 65px auto 0;
   }
 }
 
@@ -20,12 +20,13 @@
   .cover {
     width: 100%;
     min-height: 480px;
-    margin-top: 65px;
+    margin: 65px auto 0;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .cover {
+    margin: 90px auto 0;
     width: 100%;
     min-height: 480px;
   }
@@ -45,51 +46,3 @@
   }
 }
 
-
-/*до корректировок после ревьюера+ создала новый элемент ковер бекграунд*/
-/*.cover {
-  display: flex;
-  position: relative;
-  flex-direction: column;
-  background-image: url(../../images/cover-trains.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  box-sizing: border-box;
-  object-fit: contain;
-  width: 90%;
-  height: 740px;
-  margin: 90px auto 0;
-  padding: 0;
-  cursor: pointer;
-}
-
-.cover::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  bottom: 0;
-  right: 0;
-  background: #2a2c2f;
-  opacity: 0.3;
-}
-
-.cover:hover:before {
-  opacity: 0.8;
-  transition: color 5s linear 0.5s;
-}
-
-@media screen and (max-width: 425px) {
-  .cover {
-    width: 100%;
-    height: 200px;
-  }
-}
-
-@media screen and (max-width: 1024px) {
-  .cover {
-    width: 100%;
-    height: 480px;
-  }
-}
-*/

@@ -10,6 +10,7 @@
   box-sizing: border-box;
   margin: 0;
   padding-top: 80px;
+  border: 2px solid rebeccapurple;
 }
 
 .place:first-child {
@@ -45,13 +46,13 @@
   .place {
     display: grid;
     width: 100%;  
-    padding-top: 63px;
+    padding-top: 10px;
     gap: 0 24px;
     align-self: flex-start;
     
   }
   .place:first-child {
-    padding-top: 82px;
+    padding-top: 88px;
   }
 }
 
