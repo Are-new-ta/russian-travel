@@ -1,18 +1,22 @@
 .place__image {
   grid-area: place__image;
   box-sizing: border-box;
-   object-fit: contain;
-    object-position: center top;
+  object-fit: contain;
+  object-position: center top;
   max-width: 460px;
   max-height: 460px;
   margin: 0;
-   padding-top: 48px;
+  padding: 48px 0 0; /* было padding-top: 48px;*/
+  border: 2px solid green;
+  
 }
 
 @media screen and (max-width: 425px) {
   .place__image {
     max-width: 100%;
     margin-top: 32px;
+    box-sizing: border-box;
+    object-fit: contain;
     padding: 0;
     
     
@@ -35,9 +39,7 @@
     max-width: 340px;
     margin-top: 48px;
     padding: 0;
-    
-    
-        
+       
   }
 }
 

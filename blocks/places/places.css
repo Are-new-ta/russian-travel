@@ -4,11 +4,25 @@
   padding: 0;
   color: #ffffff;
   background-color: #2a2c2f;
+  border: 2px solid rebeccapurple;
+   
 }
 
 @media screen and (max-width: 425px) {
   .places {
-    box-sizing: border-box;
-    max-width: 100%;
+    width: 100%;
   }
 }
+
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  .places {
+    width: 95%;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places {
+   width: 720px;
+  }
+}
+

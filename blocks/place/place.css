@@ -10,7 +10,6 @@
   box-sizing: border-box;
   margin: 0;
   padding-top: 80px;
-   /*высоту (max-height: min-content;) убрала по замечаниям ревьюера, чтобы блоки не заходили друг на друга из-за наполнения контекна*/
 }
 
 .place:first-child {
@@ -21,11 +20,11 @@
   .place {
     display: flex;
     flex-direction: column;
-    max-width: 100%;   
-    padding-top: 50px;
+    width: 100%;       
+    padding-top: 40px;
   }
   .place:first-child {
-    padding-top: 64px;
+    padding-top: 60px;
   }
 }
 
@@ -34,24 +33,25 @@
     display: flex;
     flex-direction: column;
     max-width: 100%;   
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .place:first-child {
-    padding-top: 64px;
+    padding-top: 60px;
   }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place {
-    max-width: 100%;  
-    padding-top: 80px;
-    gap: 0 32px;
+    display: grid;
+    width: 100%;  
+    padding-top: 63px;
+    gap: 0 24px;
     align-self: flex-start;
     
   }
   .place:first-child {
-    padding-top: 92px;
+    padding-top: 82px;
   }
 }
 
@@ -63,6 +63,7 @@
     gap: 0 32px;
     
   }
+
   .place:first-child {
     padding-top: 92px;
   }

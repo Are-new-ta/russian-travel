@@ -2,29 +2,42 @@
   grid-area: place__website;
   margin: 0;
   padding: 106px 0 0 0;
-}
+  }
 
 
- /*после комментариев ревьюера убрала max-height: 46px;*/
+
 
 @media screen and (max-width: 425px) {
   .place__website {
-    margin: 0;
-    padding: 32px 0 0 0;
+    margin-left: 16px;
+    padding: 30px 0 0 0;
+    width: 90%;
   }
 }
 
 @media screen and (min-width: 425px) and (max-width: 768px) {
   .place__website {
-    margin: 0;
-    padding: 32px 0 0 0;
+    margin-left: 16px;
+    padding: 30px 0 0 0;
    }
 }
 
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place__website {
-   align-self: self-start; 
-    margin: 0;
-    padding: 32px 0 0 0;
+   align-self: flex-start;
+   margin: 0;
+   padding: 0;
+
    }
-}
+/*сказал убрать чувак из чатика*/
+   /*.place__website:first-of-type {
+    margin: 0;
+    padding-top: 40px;*/
+  }
+
+
+  /* .place__website:first-child {
+    margin-top: 140px;
+    padding: 0;*/
+  
