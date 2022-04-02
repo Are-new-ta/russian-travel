@@ -1,8 +1,8 @@
-.lead__image {  
+.lead__image {
   max-width: 984px;
   background-repeat: no-repeat;
   box-sizing: border-box;
-  object-fit: contain;  
+  object-fit: contain;
   margin: 0;
   padding: 0;
 }

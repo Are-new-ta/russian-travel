@@ -49,7 +49,6 @@
     padding-top: 10px;
     gap: 0 24px;
     align-self: flex-start;
-    
   }
   .place:first-child {
     padding-top: 88px;
@@ -63,7 +62,6 @@
     padding-top: 66px;
     gap: 0 30px;
     }
-
   .place:first-child {
     padding-top: 88px;
   }
