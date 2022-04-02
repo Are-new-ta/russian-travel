@@ -32,7 +32,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px) {
  .lead__title {
    max-width: 720px;
-    min-height: 200px; 
+    min-height: 200px;
     font-size: 96px;
     line-height: 1.04;
   }
@@ -41,7 +41,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1280px) {
  .lead__title {
    max-width: 720px;
-    min-height: 200px; 
+    min-height: 200px;
     font-size: 96px;
     line-height: 1.04;
   }
@@ -51,7 +51,7 @@
 @media screen and (min-width: 1280px) {
  .lead__title {
    max-width: 720px;
-    min-height: 200px; 
+    min-height: 200px;
     font-size: 96px;
     line-height: 1;
   }
