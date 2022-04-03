@@ -8,9 +8,8 @@
     "place__title place__website"
     "place__image place__paragraph";
   box-sizing: border-box;
-  margin: 0;
+  margin: 0 auto; /*auto добавила, а до этого было просто маргин 0*/
   padding-top: 80px;
-  
 }
 
 .place:first-child {
@@ -22,31 +21,30 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
   }
   .place:first-child {
-    padding-top: 60px;
+    padding-top: 64px;
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 425px) and (max-width: 767px) {
   .place {
     display: flex;
     flex-direction: column;
     max-width: 100%;
-    padding-top: 40px;
+    padding-top: 50px;
   }
   .place:first-child {
-    padding-top: 60px;
+    padding-top: 64px;
   }
 }
 
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .place {
-    display: grid;
     width: 100%;
-    padding-top: 10px;
+    padding-top: 25px;
     gap: 0 24px;
     align-self: flex-start;
   }
@@ -56,18 +54,25 @@
 }
 
 
-@media screen and (min-width: 1024px) and (max-width: 1280px) {
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     max-width: 100%;
-    padding-top: 66px;
+    padding-top: 60px;
     gap: 0 30px;
     }
   .place:first-child {
     padding-top: 88px;
   }
+  .place:nth-of-type(4) {
+    padding-top: 80px;
+  }
 }
 
 
-
+@media screen and (min-width: 1280px) {
+   .place:nth-of-type(4) {
+    padding-top: 65px;
+  }
+}
 
 
