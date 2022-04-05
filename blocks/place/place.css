@@ -41,15 +41,18 @@
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .place {
     width: 100%;
-    padding-top: 25px;
+    padding-top: 23px;
     gap: 0 24px;
     align-self: flex-start;
   }
   .place:first-child {
     padding-top: 88px;
+  }
+  .place:nth-of-type(5) {
+    padding-top: 25px;
   }
 }
 
@@ -57,7 +60,7 @@
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
   .place {
     max-width: 100%;
-    padding-top: 60px;
+    padding-top: 65px;
     gap: 0 30px;
     }
   .place:first-child {
@@ -71,7 +74,7 @@
 
 @media screen and (min-width: 1280px) {
    .place:nth-of-type(4) {
-    padding-top: 65px;
+    padding-top: 77px;
   }
 }
 
