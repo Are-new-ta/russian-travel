@@ -7,8 +7,8 @@
   max-width: 460px;
   text-align: center;
   color: #ffffff;
-  margin: 32px auto 0;
   padding: 0;
+  margin: 32px 0 0;
  }
 
 @media screen and (max-width: 425px) {
@@ -20,7 +20,7 @@
   }
 }
 
-@media screen and (min-width: 425px) and (max-width: 768px)  {
+@media screen and (min-width: 426px) and (max-width: 767px)  {
   .cover__subtitle {
     max-width: 90%;
     margin-top: 18px;

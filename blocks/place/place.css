@@ -21,14 +21,17 @@
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding-top: 50px;
+    padding-top: 40px;
   }
   .place:first-child {
     padding-top: 64px;
   }
+  .place:last-child {
+    padding-top: 45px;
+  }
 }
 
-@media screen and (min-width: 425px) and (max-width: 767px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
   .place {
     display: flex;
     flex-direction: column;
@@ -52,7 +55,7 @@
     padding-top: 88px;
   }
   .place:nth-of-type(5) {
-    padding-top: 25px;
+    padding-top: 35px;
   }
 }
 

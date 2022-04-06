@@ -24,14 +24,14 @@
 }
 
 
-@media screen and (min-width: 425px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
   .header__lang-link  {
    font-size: 18px;
   }
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 71024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .header__lang-link  {
    font-size: 24px;
    padding-bottom: 5px;
