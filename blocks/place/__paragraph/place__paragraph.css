@@ -72,6 +72,9 @@
   .place__paragraph:last-child {
     padding-top: 30px;
   }
+  .place__paragraph:only-of-type {
+    padding-top: 50px;
+  }
 }
 
 
@@ -81,7 +84,7 @@
     }
   .place__paragraph:last-child {
      margin: 0 auto;
-     padding-top: 32px;
+     padding-top: 23px;
     
   }
 }

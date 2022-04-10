@@ -1,7 +1,7 @@
 .cover {
   display: flex;
   flex-direction: column;
-  margin: 90px auto 0;
+  margin: 95px auto 0;
   padding: 0;
   width: 92%;
   /*min-height: 740px;*/
@@ -16,7 +16,7 @@
   }
 }
 
-@media screen and (min-width: 426px) and (max-width: 768px) {
+@media screen and (min-width: 426px) and (max-width: 767px) {
   .cover {
     width: 100%;
     /*min-height: 480px;*/
@@ -24,9 +24,9 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (min-width: 768px) and (max-width: 1023px) {
   .cover {
-    margin: 90px auto 0;
+    margin: 85px auto 0;
     width: 100%;
     /*min-height: 480px;*/
   }
